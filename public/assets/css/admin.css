@@ -1,0 +1,84 @@
+@import url('../line-awesome/css/line-awesome.min.css');
+.navbar-laravel{
+    box-shadow: none;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.navbar-brand{
+    padding: 0;
+}
+.navbar-brand img{
+    max-height: 25px;
+    width: auto;
+}
+.main-page {
+    min-height: 100%;
+}
+.sidebar {
+    height: 100%;
+    background-color: #fff;
+    border-right: 1px solid rgba(0,0,0,.125);
+}
+.sidebar .sidebar-menu li a{
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: none;
+}
+.sidebar .sidebar-menu li a:hover{
+    color: #495057;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
+.sidebar .sidebar-menu li.active > a {
+    z-index: 2;
+    color: #fff;
+    background-color: #3490dc;
+    border-color: #3490dc
+}
+.sidebar .sidebar-menu li span.arrow {
+    position: absolute;
+    right: 20px;
+}
+.sidebar .sidebar-menu li .dropdown-menu {
+    position: relative;
+    border: none;
+    width: 100%;
+    margin: 0;
+    padding: 0 0 0 20px;
+}
+.sidebar .sidebar-menu li .dropdown-menu li a{
+    color: #636b6f;
+}
+.sidebar .sidebar-menu li .dropdown-menu li a:hover, .sidebar .sidebar-menu li .dropdown-menu li a.active{
+    color: #3490dc;
+    background-color: transparent;
+}
+.sidebar .sidebar-menu li.active .dropdown-menu {
+    display: block !important;
+}
+.sidebar .sidebar-menu li.active a .arrow i:before, .sidebar .sidebar-menu li a .arrow i.open-icon:before {
+    content: "\f11f" !important;
+}
+.sidebar .sidebar-menu li .dropdown-menu li a .badge{
+    margin-top: 4px;
+}
+.main-page-content{
+    border: 1px solid rgba(0,0,0,.125);
+    background-color: #ffffff;
+}
+
+button.updating-btn i.la {
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+}
+button.updating-btn i.la:before{
+    content: "\f311";
+}
+.invalid-feedback{
+    display: block !important;
+}
+.field-required{
+    color: #ff0000;
+}
