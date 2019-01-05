@@ -23,36 +23,32 @@
 				<li> Ctype PHP Extension </li>
 				<li> JSON PHP Extension </li>
 			</ul>
-
-			<h3>Installation Instructions</h3> 
-			<hr>
-
-			<ul>
-				<li>Unzip the source package.</li>
-				<li>Upload the <strong>source</strong> directory and files to your server. Normally the <strong>root>source>public>index.php</strong> file will be at your root.</li>
-				<li>For database settings, open the <strong>.env</strong> file with a text editor and set your database settings. <br />
-				<strong>Note: .env</strong> is a hidden file, you can see it by opening directory to a text editor.
-				</li>
-				<li>Import demo database, demo database located at <strong>root>source>db-backup</strong> directory</li>
-			</ul>
-			<p>That’s it!</p>
-			Admin Login
-
-			E-Mail: admin@demo.com                           
-			Password: 123456
-			Employer Login
-
-			E-Mail: stephen@demo.com                          
-			Password: 123456
-			Agent
-
-			E-Mail: brenda@demo.com                           
-			Password: 123456
-			User
-
-			E-Mail: stephano@demo.com                          
-			Password: 123456
-</section>
+    <h3>Installation Instructions</h3>
+    <ul>
+        <li>Unzip the source package.</li>
+        <li>Upload the <strong>source</strong> directory and files to your server. Normally the <strong>root>source>public>index.php</strong> file will be at your root.</li>
+        <li>For database settings, open the <strong>.env</strong> file with a text editor and set your database settings. <br />
+<strong>Note: .env</strong> is a hidden file, you can see it by opening directory to a text editor.</li>
+        <li>Import demo database, demo database located at <strong>root>source>db-backup</strong> directory</li>
+    </ul>
+    <ul>
+        <li>Admin Login</li>
+        <p>E-Mail: admin@demo.com</p>                          
+        <p>Password: 123456</p>
+        <li>Employer Login</li>
+        <p>E-Mail: stephen@demo.com</p>                          
+        <p>Password: 123456</p>
+        <li>Agent Login</li>
+        <p>E-Mail: brenda@demo.com</p>                          
+        <p>Password: 123456</p>
+        <li>User Login</li>
+        <p>E-Mail: brenda@demo.com</p>                          
+        <p>Password: 123456</p>
+        <li>User Login</li>
+        <p>E-Mail: stephano@demo.com</p>                          
+        <p>Password: 123456</p>
+    </ul>
+    </section>
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
