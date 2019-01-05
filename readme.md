@@ -36,10 +36,6 @@
 				<li>Import demo database, demo database located at <strong>root>source>db-backup</strong> directory</li>
 			</ul>
 			<p>That’s it!</p>
-
-
-
-
 			Admin Login
 
 			E-Mail: admin@demo.com                           
@@ -56,7 +52,7 @@
 
 			E-Mail: stephano@demo.com                          
 			Password: 123456
-
+</section>
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
